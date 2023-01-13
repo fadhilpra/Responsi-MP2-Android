@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecoveryActivity">
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="<"
+        android:textSize="50dp"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/recover"
+        android:layout_width="310dp"
+        android:layout_height="100dp"
+        android:text="Recovery Account"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"/>
+
+    <EditText
+        android:id="@+id/isiemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:id="@+id/btnsend"
+        android:text="Send Email"
+        android:textSize="30sp"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"/>
+
+</RelativeLayout>

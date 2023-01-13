@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="<"
+        android:textSize="50dp"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="310dp"
+        android:layout_height="100dp"
+        android:text="Register Account"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/email"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"/>
+
+    <EditText
+        android:id="@+id/isiemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"/>
+
+    <EditText
+        android:id="@+id/isipswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:text="Confirm Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/confirmpswd"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"/>
+
+    <EditText
+        android:id="@+id/isiconfirmpswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:id="@+id/btnregister"
+        android:text="Register"
+        android:textSize="30sp"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"/>
+
+</RelativeLayout>
